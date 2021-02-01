@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Google Fonts -->
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> -->
+        
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <!-- Slick Carousel -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container"> 
+                <!--Navbar-->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/header-logo.png" alt="Virex" class="img-fluid" />
+                    </a>
+                    <!-- Collapse button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse" id="basicExampleNav">
+                        <!-- Links -->
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                                    Home 
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu multi-level dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <i class="fas fa-caret-up"></i>
+                                    <li class="dropdown-item"><a class="" href="#">SEO Marketing</a></li>
+                                    <li class="dropdown-submenu dropdown-item">
+                                        <a href="#" data-toggle="dropdown" class="">App Landing Page</a>
+                                        <ul class="dropdown-menu" style="margin-top: 1rem;">
+                                            <li class="dropdown-item">
+                                              <a href="#" class="">Dark Mood</a>
+                                            </li>
+                                            <li class="dropdown-item">
+                                              <a href="#" class="">Light Mood</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item"><a class="" href="#">Sass Landing Page</a></li>
+                                    <li class="dropdown-item"><a class="" href="#">Personal Portfolio</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Screenshots</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Steps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Functions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                    
+                        </ul>
+                        <!-- Links -->
+                        <form class="form-inline ml-auto">
+                            <div class="md-form my-0">
+                                <button type="button" class="btn btn-design">Download</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Collapsible content -->
+                </nav>
+                <!--/.Navbar-->
+
+                <div id="banner">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6 banner-content">
+                            <h6>Creative App of 2020</h6>
+                            <h2>Best Mobile App For Your Storage Management</h2>
+                            <h5>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </h5>
+
+                            <div class="d-flex">
+                                <button class="btn btn-design">Try Free Trail</button>
+                                <button class="btn btn-design">Download</button>
+                            </div>
+
+                            <div class="header-funfact d-flex">
+                                <div class="col-md-6">      
+                                    <div class="row d-flex align-items-center">
+                                        <div class="col-md-6">
+                                            <h3 class="text-blue">50.6K</h3>
+                                        </div>
+                                        <div class="col-md-6 header-funfact-text">
+                                            <p>App Download</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">      
+                                    <div class="row d-flex align-items-center">
+                                        <div class="col-md-6">
+                                            <h3 class="text-blue">16.2K</h3>
+                                        </div>
+                                        <div class="col-md-6 header-funfact-text">
+                                            <p>Positive Reviews</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/header-img.png" alt="Banner Photos" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="funfact" class="section-white">
+            <div class="mask">
+                <div class="container section-content">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-3 icon-div d-flex justify-content-center align-items-center">
+                                    <!-- <i class="fas fa-check-double" style="color: #24c499;"></i> -->
+                                    <ion-icon name="checkmark-done-outline" style="color: #24c499;"></ion-icon>
+                                </div>
+                                <div class="col-9">
+                                    <h1><span class="funfact_count" data-count="1200" >1200</span>+</h1>
+                                    <p>Project Completed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-3 icon-div d-flex justify-content-center align-items-center">
+                                    <!-- <i class="fas fa-project-diagram" style="color: #ffba00;"></i> -->
+                                    <ion-icon name="share-social-outline" style="color: #ffba00;"></ion-icon>
+                                </div>
+                                <div class="col-9">
+                                    <h1 class="funfact_count" data-count="15" >15</h1>
+                                    <p>Working In</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-3 icon-div d-flex justify-content-center align-items-center">
+                                    <!-- <i class="fas fa-award" style="color: #4285f4;"></i> -->
+                                    <ion-icon name="ribbon-outline" style="color: #4285f4;"></ion-icon>
+                                </div>
+                                <div class="col-9">
+                                    <h1 class="funfact_count" data-count="120" >120</h1>
+                                    <p>Award Won</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-3 icon-div d-flex justify-content-center align-items-center">
+                                    <!-- <i class="far fa-smile-beam" style="color: #ff784f;"></i> -->
+                                    <ion-icon name="happy-outline" style="color: #ff784f;"></ion-icon>
+                                </div>
+                                <div class="col-9">
+                                    <h1><span class="funfact_count" data-count="3200" >3200</span>+</h1>
+                                    <p>Happy Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="step" class="section-black py-5">
+            <div class="container">
+                <div class="heading">
+                    <h6>Easy Steps</h6>
+                    <h2>Discover This App More Easy</h2>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                </div>
+                <div class="row mt-5 d-flex align-items-center">
+                    <div class="col-md-6">
+                        <img src="assets/step-bg.png" alt="Steps" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 step-div">
+                        <div class="row step-div-content">
+                            <div class="col-md-4 card step-card d-flex justify-content-center align-items-center">
+                                <div class="card-body">
+                                    <div class="step-no">1</div>
+                                    <div class="icon-div" style="background: #567df4; ">
+                                        <!-- <i class="fas fa-download"></i> -->
+                                        <ion-icon name="download-outline"></ion-icon>
+                                    </div>
+                                    <div class="step-title">Download free trail</div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <p class="step-text">
+                                    This is version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aen ean itudin, lorem quis bibendum auctor, nisi elit cons tequat ipsum, nec sagittis sem nibh id elit. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row step-div-content">
+                            <div class="col-md-8">
+                                <p class="step-text">
+                                    This is version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aen ean itudin, lorem quis bibendum auctor, nisi elit cons tequat ipsum, nec sagittis sem nibh id elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-4 card step-card d-flex justify-content-center align-items-center"">
+                                <div class="card-body">
+                                    <div class="step-no">2</div>
+                                    <div class="icon-div" style="background: #f6d665; ">
+                                        <!-- <i class="fas fa-user-alt"></i> -->
+                                        <ion-icon name="person-outline"></ion-icon>
+                                    </div>
+                                    <div class="step-title">Make your profile</div>
+                                </div>
+                            </div>
+                        </div>     
+                        <div class="row step-div-content">
+                            <div class="col-md-4 card step-card d-flex justify-content-center align-items-center"">
+                                <div class="card-body">
+                                    <div class="step-no">3</div>
+                                    <div class="icon-div" style="background: #fb9ed7; ">
+                                        <!-- <i class="far fa-smile-beam"></i> -->
+                                        <ion-icon name="happy-outline"></ion-icon>
+                                    </div>
+                                    <div class="step-title">Use your app</div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <p class="step-text">
+                                    This is version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aen ean itudin, lorem quis bibendum auctor, nisi elit cons tequat ipsum, nec sagittis sem nibh id elit. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="feature" class="section-black py-5">
+            <div class="container">
+                <div class="heading">
+                    <h6>Easy Steps</h6>
+                    <h2>Discover This App More Easy</h2>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 my-3">
+                        <div class="card p-3">
+                            <div class="icon-div" style="background: #567df4; ">
+                                <!-- <i class="fas fa-download"></i> -->
+                                <ion-icon name="download-outline"></ion-icon>
+                            </div>
+                            <h4>Automatic Backups</h4>
+                            <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3">
+                        <div class="card p-3">
+                            <div class="icon-div" style="background: #f6d665; ">
+                                <ion-icon name="share-social-outline"></ion-icon>
+                                <!-- <i class="fas fa-share-alt"></i> -->
+                            </div>
+                            <h4>Remote Acceess</h4>
+                            <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3">
+                        <div class="card p-3">
+                            <div class="icon-div" style="background: #fb9ed7; ">
+                                <!-- <i class="fas fa-share"></i> -->
+                                <ion-icon name="return-up-forward-outline"></ion-icon>
+                            </div>
+                            <h4>File Sharing</h4>
+                            <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3">
+                        <div class="card p-3">
+                            <div class="icon-div" style="background: #a78bc5; ">
+                                <!-- <i class="fas fa-lock"></i> -->
+                                <ion-icon name="lock-closed-outline"></ion-icon>
+                            </div>
+                            <h4>File Security</h4>
+                            <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3">
+                        <div class="card p-3">
+                            <div class="icon-div" style="background: #f47456; ">
+                                <!-- <i class="fas fa-file-import"></i> -->
+                                <ion-icon name="enter-outline"></ion-icon>
+                            </div>
+                            <h4>File Backup</h4>
+                            <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3">
+                        <div class="card p-3">
+                            <div class="icon-div" style="background: #58d7c1; ">
+                                <!-- <i class="far fa-file-archive"></i> -->
+                                <ion-icon name="document-lock-outline"></ion-icon>
+                            </div>
+                            <h4>File Archiving</h4>
+                            <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <video id="appVideo" poster="assets/video-bg.png">
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+            </video>
+
+            <button class="btn btn-primary" id="appVideoBtn" onclick="videoControl();">
+                <ion-icon name="play"></ion-icon>
+            </button>
+        </section>
+
+        <section id="expert" class="section-black">
+            <div class="container section-content">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="heading" style="text-align: left;">
+                            <h6>Expertise</h6>
+                            <h4 class="font-style">Speciality in Those Field, Get Faster Solution</h4>
+                            <h5 class="content-title">This is of Lorem Ipsum. Proin lorem graida nibh vel. velit</h5>
+                        </div>
+                        <div id="expertVideo-div">
+                            <video id="expertVideo" poster="assets/expert-poster.png">
+                                <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+                            </video>
+                
+                            <button class="btn d-flex justify-content-center align-items-center" id="expertVideoBtn" onclick="videoControl();">
+                                <ion-icon name="play-outline"></ion-icon>
+                            </button>
+                            <img src="assets/expert-bg2.png" alt="" id="expert-img">
+                        </div>
+                    </div>
+                    <div class="col-md-7 d-flex align-items-center">
+                        <div class="row">
+                            <div class="col-md-6 content-div">
+                                <div class="icon-div" style="background: #e5ecff">
+                                    <ion-icon name="sync-outline" style="color: #4285f4"></ion-icon>
+                                </div>
+                                <h5 class="content-title">Research & Analysis</h5>
+                                <p>This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+                            </div>
+                            <div class="col-md-6 content-div">
+                                <div class="icon-div" style="background: #fff8e5">
+                                    <ion-icon name="layers-outline" style="color: #ffba00"></ion-icon>
+                                </div>
+                                <h5 class="content-title">UI/UX Design & Research</h5>
+                                <p>This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+                            </div>
+                            <div class="col-md-6 content-div">
+                                <div class="icon-div" style="background: #ffe5f5">
+                                    <ion-icon name="code-slash-outline" style="color: #f993d2"></ion-icon>
+                                </div>
+                                <h5 class="content-title">Expert Code for App Development</h5>
+                                <p>This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+                            </div>
+                            <div class="col-md-6 content-div">
+                                <div class="icon-div" style="background: #fae5ff">
+                                    <ion-icon name="stats-chart-outline" style="color: #9d43b3"></ion-icon>
+                                </div>
+                                <h5 class="content-title">Expert User Experience</h5>
+                                <p>This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="whyus" class="section-white">
+            <div class="container section-content">
+                <div class="row">
+                    <div class="col-md-7 col-sm-10">
+                        <div class="heading">
+                            <h2>More Easy and More Powerful and Personal App Built For You</h2>
+                        </div>
+                        <div class="content">
+                            <div class="d-flex">
+                                <div class="icon-div" style="background: #fa866b; margin-top: 0.8rem;">
+                                    <ion-icon name="layers-outline"></ion-icon>
+                                </div>
+                                <div class="col-md-10">
+                                    <h5 class="content-title">Expert User Experience Component</h5>
+                                    <p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="icon-div" style="background: #f5d150; margin-top: 0.8rem;">
+                                    <!-- <i class="fas fa-mobile-alt"></i> -->
+                                    <!-- <ion-icon name="calculator-outline"></ion-icon> -->
+                                    <ion-icon name="tablet-portrait-outline"></ion-icon>
+                                </div>
+                                <div class="col-md-10">
+                                    <h5 class="content-title">Expert User Experience Component</h5>
+                                    <p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="icon-div" style="background: #58d7c1; margin-top: 0.8rem;">
+                                    <ion-icon name="shield-outline"></ion-icon>
+                                </div>
+                                <div class="col-md-10">
+                                    <h5 class="content-title">Expert User Experience Component</h5>
+                                    <p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="icon-div" style="background: #fb9ed7; margin-top: 0.8rem;">
+                                    <!-- <i class="far fa-hdd"></i> -->
+                                    <ion-icon name="file-tray-full-outline"></ion-icon>
+                                </div>
+                                <div class="col-md-10">
+                                    <h5 class="content-title">Expert User Experience Component</h5>
+                                    <p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="solution" class= "section-black">
+            <div class="container">
+                <div class="row section-content">
+                    <div class="col-md-5 d-flex align-flex-end">
+                        <img src="assets/solution-img.png" class="img-fluid" alt="Solution" /> 
+                    </div>
+                    <div class="col-md-7">
+                        <div class="section-heading">
+                            <h2>Perfect Solution For Your ios & Android Device</h2>
+                        </div>
+                        <div class="content row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12 content-div">
+                                        <div class="icon-div" style="background: #567fd4;">
+                                            <ion-icon name="sync-outline"></ion-icon>
+                                        </div>
+                                        <h5 class="content-title">Get Regular Update</h5>
+                                        <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="icon-div" style="background: #567fd4;">
+                                            <ion-icon name="share-social-outline"></ion-icon>
+                                        </div>
+                                        <h5 class="content-title">Sharable Access</h5>
+                                        <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12 content-div">
+                                        <div class="icon-div" style="background: #567fd4;">
+                                            <ion-icon name="download-outline"></ion-icon>
+                                        </div>
+                                        <h5 class="content-title">Free Download</h5>
+                                        <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="icon-div" style="background: #567fd4;">
+                                            <!-- <ion-icon name="grid-outline"></ion-icon> -->
+                                            <i class="fas fa-boxes"></i>
+                                        </div>
+                                        <h5 class="content-title">Customise Storage</h5>
+                                        <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="screen" class="section-black">
+            <div class="container section-content">
+                <div class="heading">
+                    <h6>Application Screens</h6>
+                    <h2>Modern And User Friendly App Screens</h2>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                </div>
+                <div class="">
+                    <div class="slider" style="padding-top:3rem; ">
+                        <img src="assets/screen-img33.png" alt="Screens Virex" />
+                        <img src="assets/screen-img11.png" alt="Screens Virex" />
+                        <img src="assets/screen-img11.png" alt="Screens Virex" />
+                        <img src="assets/screen-img33.png" alt="Screens Virex" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="section-white">
+            <div class="container section-content">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="heading">
+                            <h6>App Download</h6>
+                            <h2>Download The App With Top  Features</h2>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                            <div class="d-flex">
+                                <a href="#" style="margin-right:1rem;"><img class="img-fluid" src="assets/googlePlayStore.png" alt="Download Virex" /></a>
+                                <a href="#"><img class="img-fluid" src="assets/appleStore.png" alt="Download Virex" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5"></div>
+            </div>
+        </section>
+
+        <section id="testimonial" class="section-black text-center my-5">
+            <div class="container">
+                <div class="heading">
+                    <h6>Testimonial</h6>
+                    <h2>Our Lovely Clients Review</h2>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                </div>
+                
+                <div class="testimonial-div">
+                    <div id="carouselBasicExample" class="carousel slide" data-ride="carousel">
+                        <div class="testimonial-slider carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card">
+                                    <img src="assets/testimonial1.png" alt="">
+                                    <div class="card-body">
+                                        <div class="testimonial-quote">
+                                            <!-- <ion-icon name="quote-outline"></ion-icon> -->
+                                            <i class="fas fa-quote-left"></i>
+                                        </div>
+                                        <h6>
+                                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicit wudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit aet nih vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                        </h6>
+                                        <div class="testimonial-rating d-flex justify-content-center">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <!-- <ion-icon ios="ios-star" md="md-star"></ion-icon> -->
+                                        </div>
+                                        <div class="heading">
+                                            <h5 class="font-style">Danial Henry</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <img src="assets/testimonial1.png" alt="">
+                                    <div class="card-body">
+                                        <div class="testimonial-quote">
+                                            <!-- <ion-icon name="quote-outline"></ion-icon> -->
+                                            <i class="fas fa-quote-left"></i>
+                                        </div>
+                                        <h6>
+                                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicit wudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit aet nih vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                        </h6>
+                                        <div class="testimonial-rating d-flex justify-content-center">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <!-- <ion-icon ios="ios-star" md="md-star"></ion-icon> -->
+                                        </div>
+                                        <div class="heading">
+                                            <h5 class="font-style">Danial Henry</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <img src="assets/testimonial1.png" alt="">
+                                    <div class="card-body">
+                                        <div class="testimonial-quote">
+                                            <!-- <ion-icon name="quote-outline"></ion-icon> -->
+                                            <i class="fas fa-quote-left"></i>
+                                        </div>
+                                        <h6>
+                                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicit wudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit aet nih vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                        </h6>
+                                        <div class="testimonial-rating d-flex justify-content-center">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <!-- <ion-icon ios="ios-star" md="md-star"></ion-icon> -->
+                                        </div>
+                                        <div class="heading">
+                                            <h5 class="font-style">Danial Henry</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="carousel-control-prev" href="#carouselBasicExample" role="button" data-slide="prev">
+                            <ion-icon name="arrow-back-outline"></ion-icon>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselBasicExample" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="subscribe" class="section-white">
+            <div class="mask">
+                <div class="container section-content">
+                    <div class="d-flex align-items-center subscribe-content">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="heading">
+                                <h2>Subscribe Our Newsletter</h2>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibih vel velit auctor aliquet. Aenean sollicitudin, lorem quis.This isaw Photoshop's version  of Lorem Ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="input-group">
+                                <div class="form-outline">
+                                  <input type="search" id="email" class="form-control" placeholder="Your Email"/>
+                                </div>
+                                <button type="button" class="btn btn-primary">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="section-white">
+            <div class="container">
+                <div class="footer-menu row">
+                    <div class="col-md-4 col-sm-12">
+                        <div>
+                            <img src="assets/logo.png" class="img-fluid" alt="Virex" > 
+                        </div>
+
+                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel revelit auctor aliquet. Aenean lic eitudin, lorem quis bibendum.This is Photoshop's version  of Lorem Ipsum. Proin.</p>
+                        <div class="footer-social-icon">
+                            <ul class="list-unstyled d-flex">
+                                <li><a href="#" title="Facebook" style="background: #fa866b"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" title="Twitter" style="background: #f5d150"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" title="LinkedIn" style="background: #58d7c1"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#" title="Instagram" style="background: #fb9ed7"><i class="fab fa-instagram" ></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <h5>Company</h5>
+                        <ul class="list-unstyled footer-menu-list">
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">Advertise</a></li>
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">Support</a></li>
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">Marketting</a></li>
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">Contact</a></li>
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled footer-menu-list">
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">Home</a></li>
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">Feature</a></li>
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">Pricing</a></li>
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">Screenshot</a></li>
+                            <li> <i class="fas fa-angle-right"></i> <a href="#">Testimonial</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <h5>Download Links</h5>
+                        <div class="footer-menu-download-links">
+                            <a href="#" title="Download"><img src="assets/googlePlayStore.png" alt="Get Download Link" class="img-fluid"></a>
+                        </div>
+                        <div class="footer-menu-download-links">
+                            <a href="#" title="Download"><img src="assets/appleStore.png" alt="Get Download Link" class="img-fluid"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    Copyright &copy; <span id="year"></span> <a href="#">Virex</a>. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Slick Carousel  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+        <!-- IonIcons -->
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    
+        <!-- Counting -->
+        <script type="text/javascript">
+            $(window).scroll(testScroll);
+            var viewed = false;
+
+            function isScrolledIntoView(elem) {
+                var docViewTop = $(window).scrollTop();
+                var docViewBottom = docViewTop + $(window).height();
+
+                var elemTop = $(elem).offset().top;
+                var elemBottom = elemTop + $(elem).height();
+
+                return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+            }
+            function testScroll() {
+                if (isScrolledIntoView($("#funfact")) && !viewed) {
+                    viewed = true;
+                    $('.funfact_count').each(function () {
+                        $(this).prop('Counter',0).animate({
+                        Counter: $(this).text()
+                        }, 
+                        {
+                            duration: 4000,
+                            easing: 'swing',
+                            step: function (now) {
+                                $(this).text(Math.ceil(now));
+                            }
+                        });
+                    });
+                }
+            }
+        </script>
+
+        <!-- Video -->
+        <script type="text/javascript">
+            var video = document.getElementById('appVideo'); 
+            var btn = document.getElementById('appVideoBtn'); 
+
+            function videoControl(){
+                if (video.paused) {
+                    video.play();
+                    btn.innerHTML = `<ion-icon name="pause"></ion-icon>`;
+                } else {
+                    video.pause();
+                    btn.innerHTML = `<ion-icon name="play"></ion-icon>`;
+                }
+            }
+        </script>
+
+        <!-- Slider -->
+        <script>
+            $(document).ready(function(){
+                $('.slider').slick({
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    cssEase: 'linear', 
+                    // autoplay: true, 
+                });
+            }); 
+        </script>
+
+        <!-- Years -->
+        <script>
+            const thisYear = (new Date()).getFullYear(); 
+            document.getElementById("year").innerText = thisYear; 
+        </script>
+    </body>
+</html>
